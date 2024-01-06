@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+
+}
+.logo{
+    background-image:url("../image/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:2px solid black transparent;
+}
+.border:hover{
+    border:1.2px solid white;
+
+}
+ 
+.add-first{
+    color:#cccc;
+    font-size: 0.85rem;
+    margin:15px;
+
+    
+
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+.add-icon{
+    display: flex;
+    align-items: 
+    center; 
+}  
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:500px;
+    height: 35px;
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+margin-left: 5px;
+}
+ .nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding:2px;
+    margin-left:5px;
+    
+
+} 
+.nav-singin a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav-cart img{
+    
+    height: 35px;
+    width:36px;
+    border-radius: 30px;
+    
+}
+/* Penel section */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px
+    ;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero-section */
+.hero-section{
+    background-image:url("/image/hero_image.jpg") ;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: #fff;
+color:black;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+width: 80%;
+margin-bottom: 15px;
+
+
+}
+.hero-msg a{
+    color:#007185;
+    
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    gap:15px; 
+
+
+}
+ .box{
+    border:2px solid black;
+     height: 400px;
+     width: 25%; 
+    background-color: white; 
+     padding:20px 0px 15px ; 
+     margin-top: 13px;
+ 
+  margin-left: 5px;
+ }
+
+
+ .box-img{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.box-content{
+    color:#007185;
+}
+/* footer section  */
+.foot-panel1{
+    background-color: #37475a;
+    color:white ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    text-decoration: none;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height: 300px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:10px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem ;
+    margin-top: 10px;
+    color:#dddddd;
+    text-decoration: none;
+
+}
+/* last section of the site  */
+.foot-pane3{
+    background-color: #222f3d;
+    color:#fff;
+     border-top: 0.5px solid white ; 
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image:url("../image/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+     
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color:white;
+    height: 100px;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+.pages{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 25px;
+}
+.copy-right{
+    padding-top: 12px;
+font-size: 0.7rem;
+text-align: center;
+}
